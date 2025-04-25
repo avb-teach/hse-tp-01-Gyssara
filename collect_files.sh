@@ -17,5 +17,5 @@ find "$input_dir" -type f | while read -r filepath; do
   else
     ext=".$ext"
   fi
-  cp "$filepath" "$output_dir/$unique_name"
+  cp "$filepath" "$output_dir/$filename"
 done
